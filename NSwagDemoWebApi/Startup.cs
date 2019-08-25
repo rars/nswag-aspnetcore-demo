@@ -43,7 +43,6 @@ namespace WebApplication1
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
             app.UseMvc();
 
             app.UseOpenApi();
